@@ -32,4 +32,7 @@ export default ContactList;
 
 ContactList.propTypes = {
   contactNames: propTypes.arrayOf(propTypes.object),
+  name: propTypes.string.isRequired,
+  number: propTypes.string.isRequired,
+  id: propTypes.string.isRequired,
 };
